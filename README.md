@@ -289,6 +289,22 @@ With the two above modification for the A* algorithm, the path for the second ca
   <figcaption> Result for combinatory planning</figcaption>
 </div> 
 
+### Testing for self-created map
+
+- Install the pyvoronoi package
+```
+pip install pyvoronoi
+```
+- Clone the repository
+
+- Give the two files execution permission
+```
+chmod +x combinatory.py
+chmod +x sample.py
+```
+- For combinatorial planning, run ```combinatory.py```
+- For sample-based planning, run ```sample.py```
+
 ### Testing for simulation in gazebo
 
 1. **Simulation set up**
@@ -364,5 +380,6 @@ The implemetation of the above algorithm is done in python. Whether or not the t
 ### Conclusion
 
 While the two approaches are not without some drawbacks, nevertheless, they have provide more options, whose performance may vary depend on the given map and minimum turning radius, for the problem of finding path for two dubins vehicle. 
+
 
 
